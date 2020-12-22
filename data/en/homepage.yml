@@ -135,16 +135,16 @@ skill:
 
 
 ############################# portfolio ################################
-#portfolio:
-#  enable : true
-#  title : "PORTFOLIO"
-#  portfolio_list:
-#    # portfolio item loop
-#    - name : "Project <br> Title"
-#      image : "images/portfolio/item1.jpg"
-#      date : "Feb 2018"
-#      category : "Web Development"
-#
+publications:
+  enable : true
+  title : "PUBLICATIONS"
+  portfolio_list:
+   # portfolio item loop
+   - name : "Project <br> Title"
+     image : "images/portfolio/item1.jpg"
+     date : "Feb 2018"
+     category : "Web Development"
+
 #    # portfolio item loop
 #    - name : "Project <br> Title"
 #      image : "images/portfolio/item2.jpg"

@@ -2,12 +2,18 @@
    Start Preloader & General Styling
 ----------------------------------*/
 
-html {
-  height: 100%;
+@font-face {
+  font-family: 'Asap';
+  src: url(../fonts/Asap/Asap-Regular.ttf);
 }
 
-h1 {
-  font-size: 2rem;
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url(../fonts/Josefin_Sans/JosefinSans-Regular.ttf);
+}
+
+html {
+  height: 100%;
 }
 
 * {
@@ -15,7 +21,7 @@ h1 {
 }
 
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Asap', sans-serif;
   height: 100%;
 }
 
@@ -33,14 +39,14 @@ body {
   opacity: 1;
 }
 
-.preloader {
+#preloader {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   background-color: #2B2C2F;
-  z-index: 99999;
+  z-index: 999;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,6 +142,7 @@ body {
 
 .header {
   background: #313131;
+  background: url('../images/Slider/slider-1.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -260,7 +267,7 @@ body {
   height: 100%;
   color: white;
   font-size: 30px;
-  font-family: 'Rubik', sans-serif !important;
+  font-family: 'Josefin Sans', sans-serif !important;
   font-weight: 300;
   z-index: 10;
 }
@@ -290,7 +297,7 @@ body {
   margin-top: 18px;
   text-decoration: none;
   color: white;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Asap', sans-serif;
   font-size: 19px;
   font-weight: 500;
   border: 2px solid white;
@@ -383,7 +390,8 @@ input:checked + label span:last-child {
   display: none;
   z-index: 11;
   color: #fff;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: url("../images/backgrounds/header-nav.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -441,7 +449,8 @@ input:checked + label span:last-child {
 .last-name {
   font-size: 100px;
   font-weight: 600;
-  line-height: 1;
+  line-height: 0;
+  margin-top: 40px;
   margin-bottom: 42px;
 }
 
@@ -514,7 +523,7 @@ input:checked + label span:last-child {
 
 .fullscreen-nav-holder a {
   color: white;
-  font-family: 'Rubik', sans-serif;
+  font-family: asap;
   font-size: 20px;
   font-weight: 500;
   text-decoration: none;
@@ -609,7 +618,7 @@ input:checked + label span:last-child {
   left: 0;
   right: 0;
   height: 55px;
-  /*background: #333;*/
+  background: #333;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -630,8 +639,7 @@ input:checked + label span:last-child {
 }
 
 .desktop-menu-logo img {
-  height: 50px;
-  margin-left: 20px;
+  height: 42px;
 }
 
 .desktop-menu-logo {
@@ -643,7 +651,7 @@ input:checked + label span:last-child {
   -ms-flex-align: center;
   align-items: center;
   position: absolute;
-  left: 1px;
+  left: 5px;
 }
 
 .menu-item {
@@ -690,7 +698,6 @@ input:checked + label span:last-child {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  margin-left: 150px;
 }
 
 .menu-item a {
@@ -724,7 +731,7 @@ input:checked + label span:last-child {
 }
 
 .mobile-menu-logo img {
-  height: 50px;
+  height: 40px;
 }
 
 .mobile-menu-logo {
@@ -854,155 +861,12 @@ input:checked + label span:last-child {
 ----------------------------------*/
 
 /*--------------------------------
-  Start Services
-----------------------------------*/
-
-.services {
-  background: #fff;
-  padding: 125px 0px 70px 0px;
-}
-
-.services-heading {
-  position: relative;
-  margin-bottom: 50px;
-}
-
-.services-heading h1 {
-  color: #6f6f6f;
-  text-align: center;
-  font-weight: 700;
-  letter-spacing: 4px;
-  margin-bottom: 30px;
-  position: relative;
-}
-
-.services-heading h1:before {
-  content: "";
-  position: absolute;
-  top: -8px;
-  right: 0;
-  left: 0;
-  margin: auto;
-  width: 70px;
-  height: 5px;
-  background: #6f6f6f;
-}
-
-.services-icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  position: relative;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-bottom: 30px;
-  padding-bottom: 40px;
-}
-
-.service-img {
-  width: 100px;
-  margin: auto;
-}
-
-.services-icon img {
-  width: 100%;
-}
-
-.service-label {
-  text-align: center;
-  font-weight: 700;
-  letter-spacing: -0.5px;
-  font-size: 19px;
-  border-bottom: 1px solid #6f6f6f;
-}
-
-.service-description {
-  text-align: justify;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-.services h4 {
-  font-size: 19px;
-  margin-top: 0;
-  margin-bottom: 4px;
-  font-weight: 700;
-  color: #4d4d4d;
-}
-
-.services p {
-  color: #6f6f6f;
-  font-size: 16px;
-}
-
-.need-service {
-  width: 100%;
-  height: 250px;
-  margin-top: 70px;
-  background: #313131;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  position: relative;
-  text-align: center;
-}
-
-.need-service:after {
-  content: '';
-  position: absolute;
-  right: 0;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 1;
-}
-
-.need-service h1 {
-  position: relative;
-  color: #fff;
-  font-weight: 700;
-  padding-top: 70px;
-  margin: 0;
-  font-size: 40px;
-  letter-spacing: 2px;
-  z-index: 2;
-}
-
-.need-service a {
-  position: relative;
-  z-index: 2;
-  text-decoration: none;
-  color: #313131;
-  font-weight: bold;
-  font-size: 17px;
-  margin-top: 14px;
-  display: inline-block;
-  background: #fff;
-  padding: 10px 19px;
-  border-radius: 25px;
-  transition: background 0.5s;
-}
-
-.need-service a:hover {
-  background: transparent;
-  color: #fff;
-  border: 2px solid #fff;
-  padding: 8px 17px;
-}
-
-/*--------------------------------
- End Services
-----------------------------------*/
-/*--------------------------------
    Start About Me
 ----------------------------------*/
 
 .about-me {
   background: #fff;
-  padding: 70px 0px;
+  padding: 125px 0px 70px 0px;
 }
 
 .about-me-text h1 {
@@ -1044,11 +908,7 @@ input:checked + label span:last-child {
 }
 
 .about-me-images img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  width:  70%;
+  width: 100%;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
@@ -1062,7 +922,7 @@ input:checked + label span:last-child {
 }
 
 .about-me-images img:hover {
-  width: 70%;
+  width: 100%;
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
   -ms-filter: grayscale(0%);
@@ -1221,28 +1081,28 @@ ul.experience-chart h4 {
 ----------------------------------*/
 
 /*--------------------------------
-  Start Certifications
+  Start Services
 ----------------------------------*/
 
-.certifications {
+.services {
   background: #fff;
   padding: 70px 0px;
 }
 
-.certifications-heading {
+.services-heading {
   position: relative;
 }
 
-.certifications-heading h1 {
+.services-heading h1 {
   color: #6f6f6f;
   text-align: center;
   font-weight: 700;
   letter-spacing: 4px;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
   position: relative;
 }
 
-.certifications-heading h1:before {
+.services-heading h1:before {
   content: "";
   position: absolute;
   top: -8px;
@@ -1254,7 +1114,7 @@ ul.experience-chart h4 {
   background: #6f6f6f;
 }
 
-.certifications-icon {
+.services-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1266,40 +1126,86 @@ ul.experience-chart h4 {
   padding-bottom: 40px;
 }
 
-.certification-img {
+.service-img {
   width: 100px;
   margin: auto;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  text-align: center;
 }
 
-.certifications-icon img {
+.services-icon img {
   width: 100%;
 }
 
-.certification-label {
+.service-label {
+  position: absolute;
   left: 0;
   right: 0;
+  top: 100px;
   text-align: center;
   font-weight: 700;
   letter-spacing: -0.5px;
   font-size: 19px;
 }
 
-.certifications h4 {
-  font-size: 19px;
-  margin-top: 0;
-  margin-bottom: 4px;
+.need-service {
+  width: 100%;
+  height: 250px;
+  margin-top: 70px;
+  background: #313131;
+  background-image: url(../images/backgrounds/need-service.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
   text-align: center;
+}
+
+.need-service:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.need-service h1 {
+  position: relative;
+  color: #fff;
   font-weight: 700;
-  letter-spacing: -0.5px;
-  color: #4d4d4d;
+  padding-top: 70px;
+  margin: 0;
+  font-size: 40px;
+  letter-spacing: 2px;
+  z-index: 2;
+}
+
+.need-service a {
+  position: relative;
+  z-index: 2;
+  text-decoration: none;
+  color: #313131;
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 14px;
+  display: inline-block;
+  background: #fff;
+  padding: 10px 19px;
+  border-radius: 25px;
+  transition: background 0.5s;
+}
+
+.need-service a:hover {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 8px 17px;
 }
 
 /*--------------------------------
- End Certifications
+ End Services
 ----------------------------------*/
 
 /*--------------------------------
@@ -1351,9 +1257,11 @@ ul.experience-chart h4 {
   display: -ms-flexbox;
   display: inherit;
   list-style: none;
+  height: 60px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 33%;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-pack: justify;
@@ -1372,7 +1280,6 @@ ul.experience-chart h4 {
   border: 1.5px solid #6f6f6f;
   color: #6f6f6f;
   font-weight: 700;
-  margin: 0 5px;
 }
 
 .portfolio-navigation li.active {
@@ -1426,14 +1333,14 @@ ul.experience-chart h4 {
 
 .item-caption h2 {
   font-size: 32px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Asap', sans-serif;
   font-weight: 700;
   padding-left: 13px;
 }
 
 .item-caption p {
   padding-left: 16px;
-  font-family: 'Rubik', sans-serif;
+  font-family: Asap;
   font-weight: 500;
 }
 
@@ -1472,7 +1379,7 @@ ul.experience-chart h4 {
   margin-top: 25px;
   text-decoration: none;
   color: #6f6f6f;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Asap', sans-serif;
   font-size: 17px;
   font-weight: 500;
   border: 2px solid #6f6f6f;
@@ -1523,7 +1430,7 @@ ul.experience-chart h4 {
   left: 0;
   right: 0;
   margin: auto;
-  width: 50px;
+  width: 80px;
   height: 5px;
   background: #6f6f6f;
 }
@@ -1615,7 +1522,7 @@ ul.experience-chart h4 {
 .fun-fact-holder img {
   display: block;
   margin: auto;
-  width: 50px;
+  width: 80px;
 }
 
 .fun-fact-holder p {
@@ -1644,13 +1551,12 @@ ul.experience-chart h4 {
 .contact {
   background: #313131;
   /* Fallback Background */
-  background-image: url("../images/backgrounds/contact-us-bg.png");
+  background-image: url("../images/backgrounds/contact-us-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   position: relative;
-  margin-top: 20px;
 }
 
 .contact:after {
@@ -1726,7 +1632,6 @@ textarea.form-control::-webkit-input-placeholder,
 }
 
 .hvr-icon-push:before {
-  font-family: "Font Awesome 5 Free";
   content: "\f1d8";
   right: 19px;
 }
@@ -1817,438 +1722,6 @@ textarea.form-control::-webkit-input-placeholder,
   color: #fff;
 }
 
-.credit a {
-  color: #fff;
-}
-
 /*--------------------------------
    End Contact
 ----------------------------------*/
-/*--------------------------------
-  Start Header
-----------------------------------*/
-
-@media(max-width: 550px) and (min-height: 501px) {
-  .introduction {
-    font-size: 45px;
-    margin-bottom: 5px;
-  }
-  .animated-text {
-    font-size: 21px;
-    margin-top: 7px;
-    margin-bottom: 2px;
-  }
-  .head-holder .hireMe {
-    margin-top: 10px;
-    font-size: 18px;
-    padding: 3px 12px;
-  }
-}
-
-@media (min-width: 470px) and (max-width: 727px) {
-  .fullscreen-nav-holder div {
-    margin-bottom: 15px;
-  }
-  .full-nav-icon-holder {
-    margin-top: 15px;
-  }
-}
-
-@media (min-width: 728px) and (max-height:470px) {
-  .full-nav-container {
-    margin-top: 20px;
-  }
-}
-
-@media (min-width: 469px)and (max-width: 727px) and (max-height:500px) {
-  .full-nav-container {
-    margin-top: 20px;
-  }
-  .first-name,
-  .last-name {
-    display: inline-block;
-    font-size: 35px;
-    margin: 0;
-  }
-  .occupation {
-    font-size: 15px;
-  }
-  .fulscreen-nav {
-    margin-top: 25px;
-  }
-  .full-nav-icon-holder {
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
-}
-
-@media (max-height: 535px) and (max-width: 468px) {
-  .first-name,
-  .last-name {
-    display: inline-block;
-    font-size: 35px;
-    margin: 0;
-  }
-  .occupation {
-    font-size: 15px;
-  }
-  .name {
-    text-align: left;
-  }
-  .full-nav-container {
-    margin-top: 20px;
-  }
-  .fullscreen-nav-holder div {
-    margin-bottom: 15px;
-    margin: 0;
-    margin-bottom: 15px;
-    width: 100%;
-    text-align: left;
-  }
-  .fulscreen-nav {
-    margin-top: 25px;
-  }
-  .full-nav-icon-holder {
-    margin-top: -5px;
-    width: 70%;
-    justify-content: flex-start;
-  }
-  .full-nav-holder {
-    padding-left: 20px;
-    display: block;
-  }
-  .full-nav-content {
-    display: block;
-  }
-}
-
-@media (max-width: 469px) and (min-height: 536px) {
-  .fullscreen-nav-holder div {
-    margin-bottom: 15px;
-    margin: 0;
-    margin-bottom: 15px;
-    width: 100%;
-    text-align: center;
-  }
-  .full-nav-icon-holder {
-    margin-top: 15px;
-  }
-  .full-nav-container {
-    margin-top: 20px;
-  }
-  .first-name {
-    font-size: 35px;
-  }
-  .last-name {
-    font-size: 70px;
-    font-weight: 600;
-    line-height: 0;
-    margin-top: 28px;
-    margin-bottom: 28px;
-  }
-  .occupation {
-    font-size: 14px;
-  }
-  .fullscreen-nav {
-    margin-top: 35px;
-  }
-  .full-nav-holder {
-    display: block;
-  }
-  .full-nav-content {
-    display: block;
-  }
-}
-
-@media (max-width: 767px) {
-  .logo {
-    left: 10px;
-  }
-  .header .logo img {
-    width: 185px;
-  }
-
-}
-
-@media (max-width: 880px) {
-  .slider-button {
-    display: none;
-  }
-}
-
-@media (max-width: 990px) {
-  .header {
-    background-position: center;
-  }
-}
-
-@media (min-height: 301px) and (max-height: 500px) {
-  .introduction {
-    font-size: 35px;
-  }
-  .animated-text {
-    font-size: 18px;
-  }
-  .head-holder .hireMe {
-    margin-top: 10px;
-    font-size: 16px;
-    padding: 3px 12px;
-  }
-}
-
-@media (max-height: 300px) {
-  .introduction {
-    font-size: 35px;
-  }
-  .animated-text {
-    font-size: 18px;
-  }
-  .head-holder .hireMe {
-    margin-top: 10px;
-    font-size: 16px;
-    padding: 3px 12px;
-  }
-  .head-container {
-    display: block;
-    margin-top: 130px;
-    margin-bottom: 50px;
-    height: auto;
-  }
-}
-
-@media(max-width: 468px) and (max-height: 440px) {
-  .full-nav-container {
-    margin-bottom: 30px;
-  }
-  .fullscreen-nav-container {
-    position: absolute;
-    top: 0;
-    bottom: 100%;
-    width: 100%;
-    height: 447px;
-  }
-}
-
-@media (max-height: 430px) {
-  .fullscreen-nav-container {
-    min-height: 420px;
-  }
-}
-
-/*--------------------------------
-  End Header
-----------------------------------*/
-
-/*--------------------------------
- Start Menu
-----------------------------------*/
-
-@media (max-width: 991px) {
-  .desktop-menu {
-    width: 95%;
-    margin-left: 150px;
-  }
-}
-
-@media (max-width: 765px) {
-  .desktop-menu {
-    display: none;
-  }
-  .mobile-menu {
-    display: block;
-  }
-  .menu-container {
-    justify-content: flex-end;
-    padding: 0px 20px;
-    height: 0px;
-    background: #fff;
-  }
-  .desktop-menu-logo {
-    display: none;
-  }
-  .menu-container-transparent {
-    background: rgb(255, 255, 255);
-  }
-}
-
-@media (min-width: 601px) and (max-width: 991px) {
-  .menu-container {
-    justify-content: flex-start;
-  }
-}
-
-@media(min-width: 766px) {
-  .mobile-menu-fix {
-    display: none;
-  }
-}
-
-/*--------------------------------
- End Menu
-----------------------------------*/
-
-/*--------------------------------
-  Start About Me
-----------------------------------*/
-
-@media (max-width: 767px) {
-  .about-me-text {
-    display: block;
-    height: auto;
-    margin-bottom: 30px;
-    -webkit-order: 2;
-    -moz-order: 2;
-    -ms-order: 2;
-    -o-order: 2;
-    order: 2;
-  }
-  .about-me-image {
-    -webkit-order: 1;
-    -moz-order: 1;
-    -ms-order: 1;
-    -o-order: 1;
-    order: 1;
-    margin-bottom: 30px;
-  }
-  .about-me-holder {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .experience-skill {
-    margin-top: 10px;
-  }
-  .experience-chart,
-  .skill-progress-bar {
-    margin-top: 25px;
-  }
-  .skill {
-    margin-top: 30px;
-  }
-  .skillbar {
-    margin-bottom: 15px;
-  }
-}
-
-@media (min-width:601px) and (max-width: 991px) {
-  .about-me {
-    padding: 125px 0px 35px 0px;
-  }
-}
-
-@media (max-width: 600px) {
-  .about-me {
-    padding: 70px 0px 0px 0px;
-  }
-}
-
-/*--------------------------------
-   End About Me
-----------------------------------*/
-
-/*--------------------------------
-  Start Services
-----------------------------------*/
-
-@media(min-width: 526px) and (max-width: 767px) {
-  .services-icon img {
-    width: 100%;
-  }
-  .service-label {
-    top: 110px;
-    letter-spacing: 0;
-    font-size: 17px;
-  }
-  .service-description {
-    top: 110px;
-    letter-spacing: 0;
-    font-size: 12px;
-  }
-}
-
-@media (max-width: 525px) {
-  .min-width-bar {
-    left: 40%;
-    right: 40%;
-  }
-}
-
-@media (max-width: 475px) {
-  .services-heading h1 {
-    margin-bottom: 30px;
-  }
-}
-
-@media (min-width:768px) and (max-width: 991px) {
-  .services {
-    padding: 70px 0px 35px 0px;
-  }
-}
-
-@media (max-width: 767px) {
-  .services {
-    padding: 70px 0px 0px 0px;
-  }
-}
-
-/*--------------------------------
- End Services
-----------------------------------*/
-
-/*--------------------------------
-  Start Portfolio
-----------------------------------*/
-/*--------------------------------
-  End Portfolio
-----------------------------------*/
-
-/*--------------------------------
-   Start Testimonials
-----------------------------------*/
-
-@media(max-width: 380px) {
-  .single-testimonial p {
-    width: 80%;
-  }
-}
-
-@media (max-width: 991px) {
-  .fun-facts {
-    justify-content: space-around;
-  }
-  .fun-fact-holder {
-    margin-bottom: 40px;
-  }
-}
-
-@media (min-width:766px) and (max-width: 991px) {
-  .testimonials {
-    padding: 70px 0px 35px 0px;
-  }
-}
-
-@media (max-width: 767px) {
-  .testimonials {
-    padding: 70px 0px 0px 0px;
-  }
-}
-
-/*--------------------------------
-  End Testimonials
-----------------------------------*/
-
-/*--------------------------------
-  Start Contact
-----------------------------------*/
-
-@media (max-width: 300px) {
-  .footer-icons {
-    width: 100%;
-  }
-  .footer-icons .fa {
-    margin-bottom: 10px;
-  }
-}
-
-/*--------------------------------
-  End Contact
-----------------------------------

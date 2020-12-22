@@ -33,7 +33,7 @@ about:
   enable : true
   image : "images/backgrounds/portrait.jpg"
   title : "KNOW MORE <br> ABOUT ME"
-  content : "I'm Ana Rebelo, born in Porto, Portugal, in 1985. She graduated in Mathematics Applied to Technology at School of Sciences of University of Porto, Portugal, in 2007. She received the M.Sc. degree in Mathematical Engineering from School of Sciences of University of Porto, Portugal, in 2008. In 2008, she started her PhD studies at School of Engineering, University of Porto, Portugal. She has been working since 2007 as a researcher at INESC TEC, an R&D institute affiliated to University of Porto, in the Visual Computing and Machine Intelligence Group (VCMI). Ana Rebelo was a Project Member of one FCT (Foundation of Science and Technology - Portugal) research project in the area of optical music recognition (OMR). She is a Researcher at INESC TEC. Her main research interests include computer vision, deep learning, biometrics, digital forensics and document analysis."
+  content : "I'm Ana Rebelo, born in Porto, Portugal, in 1985. I graduated in Mathematics Applied to Technology at [School of Sciences of University of Porto](https://sigarra.up.pt/fcup/en/), Portugal, in 2007. I received the M.Sc. degree in Mathematical Engineering from the same school, in 2008. In 2008, I started my PhD studies at [School of Engineering of University of Porto](https://sigarra.up.pt/feup/en/), Portugal. I have been working since 2007 as a researcher at [INESC TEC](https://www.inesctec.pt/en), an R&D institute affiliated to University of Porto, in the [Visual Computing and Machine Intelligence Group](http://vcmi.inesctec.pt). My main research interests include computer vision, deep learning, biometrics, digital forensics and document analysis."
   # button
   button:
     enable : true
@@ -47,31 +47,31 @@ experience:
   experience_list:
     # experience item loop
     - name : "Senior Researcher"
-      company : "inesctec.pt"
+      company : "[inesctec.pt](https://www.inesctec.pt/en)"
       duration : "2013-ongoing"
       content : "Develop and implement Image Processing, Computer Vision and Machine Learning algorithms for biometric applications. Research Grants and Funds Raising. Team members supervision and mentoring."
 
     # experience item loop
     - name : "Co-Founding and Coordinating"
-      company : "inesctec.pt"
+      company : "[inesctec.pt](https://www.inesctec.pt/en)"
       duration : "2012-ongoing"
       content : "VISion Understanding and Machine intelligence Summer School (visum.inesctec.pt). A non-profit summer school that aims to gather Ph.D. candidates, Post-Doctoral scholars and researchers from academia and industry with research interests in computer vision and machine intelligence."
 
     # experience item loop
     - name : "Project Manager"
-      company : "inesctec.pt"
+      company : "[inesctec.pt](https://www.inesctec.pt/en)"
       duration : "2013-ongoing"
       content : "Project coordinator: tasks, milestones, head count and talent acquisition. Scientific advisor."
 
     # experience item loop
     - name : "Solution Design and Implementation"
-      company : "inesctec.pt"
+      company : "[inesctec.pt](https://www.inesctec.pt/en)"
       duration : "2008-ongoing"
       content : "Fingerprint Matching and Identification. Staff line detection and removal. Music symbols extraction based on musical rules. Music score binarization based on domain knowledge."
 
     # experience item loop
     - name : "Assistant Professor"
-      company : "upt.pt"
+      company : "[upt.pt](https://upt.pt)"
       duration : "2018-2020"
       content : "Professor at the Department of Science and Technology. Coordinator of Master’s Degree in Data Science"
 

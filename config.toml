@@ -115,7 +115,7 @@ disqusShortname = "yourdiscussshortname"
     name = "RSS"
     icon = "fa fa-rss"
     weight = 6
-    url = "https://myhugosite.com/index.xml"
+    url = "https://anarebelo.github.io/posts/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
 [[params.social]]

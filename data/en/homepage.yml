@@ -38,7 +38,7 @@ about:
   button:
     enable : true
     label : "DOWNLOAD MY CV"
-    link : "https://anarebelo.github.io/static/data/CV.pdf" # you can put your cv in static folder and give the path here.
+    link : "https://anarebelo.github.io/data/CV.pdf" # you can put your cv in static folder and give the path here.
 
 ###########################3 Experience ##############################
 experience:

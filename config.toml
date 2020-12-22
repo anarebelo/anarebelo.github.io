@@ -88,7 +88,7 @@ author = "Ana Rebelo"
 # contact form action
 contact_form_action = "" # contact form works with https://formspree.io
 # Google analytics
-google_analytics_id = "" # your id
+google_analytics_id = "G-MKP5B963ML" # your id
 
 # Preloader
 [params.preloader]

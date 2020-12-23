@@ -126,6 +126,16 @@
       <script src="{{ . | relURL }}"></script>
     {{ end }}
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MKP5B963ML"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-MKP5B963ML');
+    </script>
+
     {{ template "_internal/google_analytics.html" . }}
 
     {{ if and .Site.Params.fathomAnalytics .Site.Params.fathomAnalytics.siteID }}

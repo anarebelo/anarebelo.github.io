@@ -19,7 +19,7 @@ disqusShortname = "yourdiscussshortname"
     description = "Ana Rebelo's personal website"
     keywords = "blog,researcher,personal"
     info = "Research Scientist"
-    avatarURL = "images/arebelo.png"
+    avatarURL = "images/arebelo.jpg"
     #gravatar = "john.doe@example.com"
     footerContent = """<a href="https://anarebelo.github.io/data/CV.pdf">Currilum Vitae</a>"""
 

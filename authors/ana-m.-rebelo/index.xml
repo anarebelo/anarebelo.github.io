@@ -6,14 +6,23 @@
     <description>Recent content in Ana M. Rebelo on Ana Rebelo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://anarebelo.github.io/authors/ana-m.-rebelo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://anarebelo.github.io/authors/ana-m.-rebelo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>New website</title>
-      <link>https://anarebelo.github.io/posts/my-new-website/</link>
-      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+      <title>MINEX III Certification by NIST</title>
+      <link>https://anarebelo.github.io/posts/minexiiienroll/</link>
+      <pubDate>Thu, 26 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://anarebelo.github.io/posts/my-new-website/</guid>
-      <description>to be announced</description>
+      <guid>https://anarebelo.github.io/posts/minexiiienroll/</guid>
+      <description>In collaboration with the Imprensa Nacional-Casa da Moeda (INCM), our work obtained MINEX III certification - Minutiae Interoperability Exchange - by the National Institute of Standards and Technology (NIST) of the United States (US) Department of Commerce. This certification is a test used to establish that template generation and correspondence algorithms comply with the US government&amp;rsquo;s Personal Identity Verification (PIV) program and aims to assess the quality and robustness of biometric recognition algorithms.</description>
+    </item>
+    
+    <item>
+      <title>Best reviewer award at IJCB2020</title>
+      <link>https://anarebelo.github.io/posts/ijcb2020/</link>
+      <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://anarebelo.github.io/posts/ijcb2020/</guid>
+      <description>The 2020 International Joint Conference on Biometrics (IJCB 2020) combines two major biometrics research conferences, the Biometrics Theory, Applications and Systems (BTAS) conference and the International Conference on Biometrics (ICB).</description>
     </item>
     
   </channel>

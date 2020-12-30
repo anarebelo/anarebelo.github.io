@@ -25,5 +25,14 @@
       <description>The 2020 International Joint Conference on Biometrics (IJCB 2020) combines two major biometrics research conferences, the Biometrics Theory, Applications and Systems (BTAS) conference and the International Conference on Biometrics (ICB).</description>
     </item>
     
+    <item>
+      <title>Monitor in the Future of Computing Summer School.</title>
+      <link>https://anarebelo.github.io/posts/foc/</link>
+      <pubDate>Thu, 01 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://anarebelo.github.io/posts/foc/</guid>
+      <description>Monitor in the GPU-Accelerated Computing workshop given by Cristiana Dinea from NVIDIA Deep Learning Institute. Check more at Future of Computing summer school website.</description>
+    </item>
+    
   </channel>
 </rss>

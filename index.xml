@@ -17,12 +17,32 @@
     </item>
     
     <item>
+      <title>Incredible International Workshop on Explainable &amp; Interpretable for Biometrics</title>
+      <link>https://anarebelo.github.io/posts/xai4biometrics/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://anarebelo.github.io/posts/xai4biometrics/</guid>
+      <description>International Workshop on Explainable &amp;amp; Interpretable Artificial Intelligence for Biometrics at WACV The xAI4Biometrics Workshop at WACV 2021 aims at promoting a better understanding, through explainability and interpretability, of currently common and accepted practices in several and varied applications of biometrics. These applications, in scenarios comprising identity verification for access/border control, watching lists surveillance, anti-spoofing measures embedded in biometric recognition systems, forensic applications, among many others, affect the daily life of an ever-growing population.</description>
+    </item>
+    
+    <item>
       <title>Best reviewer award at IJCB2020</title>
       <link>https://anarebelo.github.io/posts/ijcb2020/</link>
       <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://anarebelo.github.io/posts/ijcb2020/</guid>
       <description>The 2020 International Joint Conference on Biometrics (IJCB 2020) combines two major biometrics research conferences, the Biometrics Theory, Applications and Systems (BTAS) conference and the International Conference on Biometrics (ICB).</description>
+    </item>
+    
+    <item>
+      <title>The 8th International Workshop on Biometrics and Forensics</title>
+      <link>https://anarebelo.github.io/posts/iwbf2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://anarebelo.github.io/posts/iwbf2020/</guid>
+      <description>International Workshop on Biometrics and Forensics The International Workshop on Biometrics and Forensics (IWBF) is devoted to facilitating synergies in research and development among the areas of multimedia forensics, forensic biometrics, and forensic science.
+IWBF 2020 is jointly organized by EAB; INESC TEC, Porto, Portugal and NTNU, Gjovik, Norway.
+Important dates  Papers / Demos / Doctoral Consortium Submission Deadline: February 15, 2020 Conference: April 29-30, 2020  For more information please consult the official website.</description>
     </item>
     
     <item>
@@ -53,16 +73,6 @@
     </item>
     
     <item>
-      <title>Creation of the MobBIO multimodal database</title>
-      <link>https://anarebelo.github.io/posts/mobbio/</link>
-      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://anarebelo.github.io/posts/mobbio/</guid>
-      <description>The MobBIO Multimodal Database The MobBIO Multimodal Database comprises the biometric data from 105 volunteers. Each individual provided samples of face, iris and voice. The nationalities of the volunteers were mainly portuguese but also participated volunteers from U.K., Romania and Iran. The average of ages was approximately 34, being the minimum age 18 and the maximum age 69. The gender distribution was 29% females and 71% males
-For more information please read the following paper MobBIO: A Multimodal Database Captured with a Portable Handheld Device.</description>
-    </item>
-    
-    <item>
       <title>Biometric Recognition with Portable Devices Competition</title>
       <link>https://anarebelo.github.io/posts/mobbiocompetition/</link>
       <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
@@ -71,6 +81,16 @@ For more information please read the following paper MobBIO: A Multimodal Databa
       <description>1st Biometric Recognition with Portable Devices Competition This competition is part of ICIAR 2013 conference and the MobBIO Multimodal Database is used.
 The main goal of the competition is to compare different methodologies for biometric recognition using data acquired with common portable devices, such as smartphones or tablets.
 The team involved were: Ana F. Sequeira, Hélder Oliveira, João Monteiro and I.</description>
+    </item>
+    
+    <item>
+      <title>Creation of the MobBIO multimodal database</title>
+      <link>https://anarebelo.github.io/posts/mobbio/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://anarebelo.github.io/posts/mobbio/</guid>
+      <description>The MobBIO Multimodal Database The MobBIO Multimodal Database comprises the biometric data from 105 volunteers. Each individual provided samples of face, iris and voice. The nationalities of the volunteers were mainly portuguese but also participated volunteers from U.K., Romania and Iran. The average of ages was approximately 34, being the minimum age 18 and the maximum age 69. The gender distribution was 29% females and 71% males
+For more information please read the following paper MobBIO: A Multimodal Database Captured with a Portable Handheld Device.</description>
     </item>
     
     <item>

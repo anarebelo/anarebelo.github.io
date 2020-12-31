@@ -28,10 +28,28 @@
     <item>
       <title>Monitor in the Future of Computing Summer School.</title>
       <link>https://anarebelo.github.io/posts/foc/</link>
-      <pubDate>Thu, 01 Jul 2010 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://anarebelo.github.io/posts/foc/</guid>
       <description>Monitor in the GPU-Accelerated Computing workshop given by Cristiana Dinea from NVIDIA Deep Learning Institute. Check more at Future of Computing summer school website.</description>
+    </item>
+    
+    <item>
+      <title>Creation of the SI-PSL database</title>
+      <link>https://anarebelo.github.io/posts/si-psl/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://anarebelo.github.io/posts/si-psl/</guid>
+      <description>Signer-Independent Portuguese Sign Language (SI-PSL) database The SI-PSL database was specially created for signer-independent evaluation purposes. It contains 31 isolated signs, representing the alphabet and the cardinal numbers 0 to 9 of the Portuguese sign language. All the signs were performed three times by a total of 11 native signers, in a free and natural signing environment, without any clothing restriction but with a slightly-controlled uniform background (see Figure below). Therefore, it clearly depicts the large inter-signer variability that exists in the manual signing process of sign languages.</description>
+    </item>
+    
+    <item>
+      <title>Creation of the CorSiL database</title>
+      <link>https://anarebelo.github.io/posts/corsil/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://anarebelo.github.io/posts/corsil/</guid>
+      <description>A Portuguese Sign Language and Expressiveness Recognition Database The CorSiL database was created within the framework of a research project at INESC TEC, FEUP, Porto, Portugal, which aimed to develop both a video-based automatic SLR system and a expressiveness analysis method of the human body during the interaction between a pair of subjects. In this manner the CorSiL database has two major components (or subsets) each one with a specific purpose:</description>
     </item>
     
     <item>

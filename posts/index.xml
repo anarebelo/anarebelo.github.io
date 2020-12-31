@@ -49,7 +49,28 @@
       <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
       
       <guid>https://anarebelo.github.io/posts/corsil/</guid>
-      <description>A Portuguese Sign Language and Expressiveness Recognition Database The CorSiL database was created within the framework of a research project at INESC TEC, FEUP, Porto, Portugal, which aimed to develop both a video-based automatic SLR system and a expressiveness analysis method of the human body during the interaction between a pair of subjects. In this manner the CorSiL database has two major components (or subsets) each one with a specific purpose:</description>
+      <description>A Portuguese Sign Language and Expressiveness Recognition Database The CorSiL database was created within the framework of a research project at INESC TEC, Porto, Portugal, which aimed to develop both a video-based automatic SLR system and a expressiveness analysis method of the human body during the interaction between a pair of subjects. In this manner the CorSiL database has two major components (or subsets) each one with a specific purpose:</description>
+    </item>
+    
+    <item>
+      <title>Creation of the MobBIO multimodal database</title>
+      <link>https://anarebelo.github.io/posts/mobbio/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://anarebelo.github.io/posts/mobbio/</guid>
+      <description>The MobBIO Multimodal Database The MobBIO Multimodal Database comprises the biometric data from 105 volunteers. Each individual provided samples of face, iris and voice. The nationalities of the volunteers were mainly portuguese but also participated volunteers from U.K., Romania and Iran. The average of ages was approximately 34, being the minimum age 18 and the maximum age 69. The gender distribution was 29% females and 71% males
+For more information please read the following paper MobBIO: A Multimodal Database Captured with a Portable Handheld Device.</description>
+    </item>
+    
+    <item>
+      <title>Biometric Recognition with Portable Devices Competition</title>
+      <link>https://anarebelo.github.io/posts/mobbiocompetition/</link>
+      <pubDate>Sat, 01 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://anarebelo.github.io/posts/mobbiocompetition/</guid>
+      <description>1st Biometric Recognition with Portable Devices Competition This competition is part of ICIAR 2013 conference and the MobBIO Multimodal Database is used.
+The main goal of the competition is to compare different methodologies for biometric recognition using data acquired with common portable devices, such as smartphones or tablets.
+The team involved were: Ana F. Sequeira, Hélder Oliveira, João Monteiro and I.</description>
     </item>
     
   </channel>

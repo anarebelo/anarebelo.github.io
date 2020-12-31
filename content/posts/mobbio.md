@@ -1,5 +1,5 @@
 +++
-date = "2013-01-01"
+date = "2012-01-01"
 title = "Creation of the MobBIO multimodal database"
 slug = "mobbio"
 tags = []

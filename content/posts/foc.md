@@ -1,5 +1,5 @@
 +++
-date = "2010-07-01"
+date = "2019-07-01"
 title = "Monitor in the Future of Computing Summer School."
 slug = "foc"
 tags = []

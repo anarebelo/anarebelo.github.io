@@ -4,6 +4,7 @@ slug = "activity"
 +++
 
 ## Research \& Development
+- Member of the research project [SCONE - geometric featureS in CONvolutional nEural networks for a fingerprint recognition system](http://vcmi.inesctec.pt/news/ana-rebelo-and-eduardo-castro-got-their-inesc-tec-seed-project-financed).
 - Team Leader and individual contributor in [vCardID project](http://vcmi.inesctec.pt/projects/vcardid) with [INCM (Imprensa Nacional Casa da Moeda)](https://incm.pt/portal/index.jsp?lang=en) for the creation of a national fingerprint identification algorithm.
 - Principal Investigator in [AUTOMOTIVE (FCT 030707)](http://vcmi.inesctec.pt/projects/automotive).
 - Member of the research project [OMR (FCOMP-01-0124-FEDER-010159)](http://vcmi.inesctec.pt/projects/omr).
@@ -15,7 +16,7 @@ slug = "activity"
 Through the creation of a specialized multicultural environment, it is intended to promote and increase the knowledge of all participants on the state of the art of these topics, provided by internationally renowned experts in data science field.
 
 ### Master's Degree in Data Science
-Assistant Professor at the Department of Science and Technology at [Universidade Portucalense](https://www.upt.pt/) where I co-founded the [Master's Degree in Data Science](https://www.upt.pt/curso.php?e=940). 
+Assistant Professor at the Department of Science and Technology at [Universidade Portucalense](https://www.upt.pt/) where I co-founded the [Master's Degree in Data Science](https://www.upt.pt/curso.php?e=940).
 
 ## Scientific Advisor
 ### PhD Students
